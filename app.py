@@ -58,8 +58,8 @@ jenis_kelamin = st.text_input('Jenis Kelamin')
 
        # Output
 st.write("Nama: ", nama)
-st.write("Program studi: ", umur)
-st.write("NIM: ", jenis_kelamin)
+st.write("Umur: ", umur)
+st.write("Jenis kelamin: ", jenis_kelamin)
 
 
 
