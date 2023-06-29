@@ -7,7 +7,7 @@ def main():
 
 import streamlit as st
 
-profil_image = st.image("foto_profil/aldii.jpeg", width=100, caption="Foto Profil", use_column_width=True,)
+profil_image = st.image("foto_profil/aldii.jpeg", width=100, caption="Foto Profil",)
 
 
 st.write('Nama 			: Aldi Rizki Yudistira')
@@ -49,7 +49,7 @@ elif pilihan_prod == 'Email' :
 else:
 	st.write('')
 
-st.write('Pengunjung')
+st.write('Data Pengunjung')
 
 #input
 nama = st.text_input('Nama :')
@@ -60,6 +60,7 @@ jenis_kelamin = st.text_input('Jenis Kelamin')
 st.write("Nama: ", nama)
 st.write("Umur: ", umur)
 st.write("Jenis kelamin: ", jenis_kelamin)
+st.button('SIMPAN')
 
 
 
